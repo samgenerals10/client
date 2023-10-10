@@ -1,13 +1,391 @@
+/* App.css or index.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-family: "Poppins Medium" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Medium.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Regular.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins SemiBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Bold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Bold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Light" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Light.ttf") !important;
+}
+
+@font-face {
+  font-family: "Poppins Thin" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  src: url("./assets/fonts/Poppins-Thin.ttf") !important;
+};
+
+
+* {
+  outline: none !important;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 !important;
+  overflow-y: overlay !important;
+  font-family: "Poppins Regular" !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace !important;
 }
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1) !important;
+}
+
+.btn {
+  border-radius: 50px !important;
+  padding: 14px 0 !important;
+  width: 160px !important;
+  cursor: pointer !important;
+  height: 60px;
+  transition: 0.2s !important;
+  font-family: "Poppins SemiBold" !important;
+}
+
+.btn:active {
+  transform: translateY(2px) !important;
+}
+
+.primary-btn {
+  color: var(--black) !important;
+  border: 2px solid linen !important;
+  font-size: 12px !important;
+  background-color: #ffffff !important;
+  margin: 5% !important;
+}
+/* @media only screen and (max-width: 414px) {
+  .primary-btn {
+    font-size: 13px;
+  }
+} */
+
+.primary-btn:hover {
+  color: aliceblue !important;
+  border: 2px solid #ff5823 !important;
+  background-color: #1f2235 !important;
+  box-shadow: 10px 8px 227px 9px rgba(255,101,80,0.44) !important;
+-webkit-box-shadow: 10px 8px 227px 9px rgba(255,101,80,0.44) !important;
+-moz-box-shadow: 10px 8px 227px 9px rgba(255,101,80,0.44) !important;
+}
+
+.highlighted-btn {
+  color: var(--white) !important;
+  font-size: 12px !important;
+  background-color: #ff5823 !important;
+  
+  
+}
+
+
+.highlighted-btn:hover{
+  background-color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 7px 8px 199px -51px rgba(255,255,255,0.8) !important;
+-webkit-box-shadow: 7px 8px 199px -51px rgba(255,255,255,0.8) !important;
+-moz-box-shadow: 7px 8px 199px -51px rgba(255,255,255,0.8) !important;
+  
+
+}
+
+/* .colzIcon-linkdin:hover{
+  background-color: rgb(0, 102, 255) !important;
+  color: rgb(4, 180, 255) !important;
+  border-radius: 22% solid !important;
+
+};  */
+
+ /* .colzIcon-facebook:hover{
+  background-color: rgb(89, 167, 240) !important;
+  color: rgb(4, 180, 255) !important;
+  border-radius: 22% solid !important;
+
+};  */
+
+/* .colzIcon-instagram:hover{
+  background-color: linear-gradient(90deg, rgba(247,2,2,1) 0%, rgba(242,4,211,1) 35%, rgba(0,11,255,1) 100%) !important;
+}; */
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900 !important;
+  }
+}
+
+.red-border {
+  border: 1px solid var(--error-message) !important;
+}
+
+.fade-in {
+  opacity: 0 !important;
+  transform: translateY(80px) !important;
+  transition: all 0.8s ease !important;
+};
